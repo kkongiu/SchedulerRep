@@ -1,6 +1,6 @@
 {
   "anno": 2025,
-  "mese": 5,
+  "mese": 6,
   "cantieri": [
     {"nome": "Città di Quartu", "turni_disponibili": ["CDQ 1 MA", "CDQ 2 PM", "CDQ 3 SE", "CDQ 4 DO", "CDQ 5 DO"]},
     {"nome": "San Salvatore", "turni_disponibili": ["SS P1 MA", "SS P2 MA", "SS P3 MA", "SS 3 PR", "SS 4 PM", "SS 5 PM", "SS 6 PM", "SS 7 SE", "SS 8 SE", "SS 9 DO", "SS 10 DO", "SS 11 DO"]},
