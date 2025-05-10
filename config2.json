@@ -1,0 +1,584 @@
+{
+  "anno": 2025,
+  "mese": 5,
+  "cantieri": [
+    {"nome": "Città di Quartu", "turni_disponibili": ["CDQ 1 MA", "CDQ 2 PM", "CDQ 3 SE", "CDQ 4 DO", "CDQ 5 DO"]},
+    {"nome": "San Salvatore", "turni_disponibili": ["SS P1 MA", "SS P2 MA", "SS P3 MA", "SS 3 PR", "SS 4 PM", "SS 5 PM", "SS 6 PM", "SS 7 SE", "SS 8 SE", "SS 9 DO", "SS 10 DO", "SS 11 DO"]},
+    {"nome": "Sant'Elena", "turni_disponibili": ["QSE 1 MA", "QSE 2 MA", "QSE 2bis MA", "QSE 3 MA", "QSE 3 PR", "QSE 5 PM", "QSE 6 PM", "QSE 7 SE", "QSE 7bis SE", "QSE 8 SE", "QSE 8bis SE", "QSE 8c SE", "QSE 9 SE", "QSE 10 DO", "QSE 11 DO", "QSE 12 DO", "QSE Uf SE"]}
+  ],
+  "turni": [
+    {"nome": "CDQ 1 MA", "durata_ore": 4, "richiedi_certificazione": null, "quando": "Mattina", "orario_inizio": 8},
+    {"nome": "CDQ 2 PM", "durata_ore": 2.5, "richiedi_certificazione": null, "quando": "Pomeriggio", "orario_inizio": 14},
+    {"nome": "CDQ 3 SE", "durata_ore": 2.75, "richiedi_certificazione": null, "quando": "Sera", "orario_inizio": 18},
+    {"nome": "CDQ 4 DO", "durata_ore": 1.25, "richiedi_certificazione": null, "quando": "Domenicale", "orario_inizio": 10},
+    {"nome": "CDQ 5 DO", "durata_ore": 1, "richiedi_certificazione": null, "quando": "Domenicale", "orario_inizio": 12},
+    {"nome": "SS P1 MA", "durata_ore": 2.5, "richiedi_certificazione": null, "quando": "Mattina", "orario_inizio": 8},
+    {"nome": "SS P2 MA", "durata_ore": 2, "richiedi_certificazione": null, "quando": "Mattina", "orario_inizio": 10},
+    {"nome": "SS P3 MA", "durata_ore": 2, "richiedi_certificazione": null, "quando": "Mattina", "orario_inizio": 9},
+    {"nome": "SS 3 PR", "durata_ore": 1.33, "richiedi_certificazione": null, "quando": "Pranzo", "orario_inizio": 12},
+    {"nome": "SS 4 PM", "durata_ore": 2.17, "richiedi_certificazione": null, "quando": "Pomeriggio", "orario_inizio": 14},
+    {"nome": "SS 5 PM", "durata_ore": 1.5, "richiedi_certificazione": null, "quando": "Pomeriggio", "orario_inizio": 15},
+    {"nome": "SS 6 PM", "durata_ore": 2.5, "richiedi_certificazione": null, "quando": "Sera", "orario_inizio": 18},
+    {"nome": "SS 7 SE", "durata_ore": 2.5, "richiedi_certificazione": null, "quando": "Sera", "orario_inizio": 19},
+    {"nome": "SS 8 SE", "durata_ore": 2.5, "richiedi_certificazione": null, "quando": "Sera", "orario_inizio": 20},
+    {"nome": "SS 9 DO", "durata_ore": 3.5, "richiedi_certificazione": null, "quando": "Domenicale", "orario_inizio": 10},
+    {"nome": "SS 10 DO", "durata_ore": 2.5, "richiedi_certificazione": null, "quando": "Domenicale", "orario_inizio": 12},
+    {"nome": "SS 11 DO", "durata_ore": 1.5, "richiedi_certificazione": null, "quando": "Domenicale", "orario_inizio": 14},
+    {"nome": "QSE 1 MA", "durata_ore": 2.25, "richiedi_certificazione": null, "quando": "Mattina", "orario_inizio": 8},
+    {"nome": "QSE 2 MA", "durata_ore": 1.5, "richiedi_certificazione": null, "quando": "Mattina", "orario_inizio": 9},
+    {"nome": "QSE 2bis MA", "durata_ore": 1.5, "richiedi_certificazione": null, "quando": "Mattina", "orario_inizio": 10},
+    {"nome": "QSE 3 MA", "durata_ore": 3.5, "richiedi_certificazione": null, "quando": "Mattina", "orario_inizio": 7},
+    {"nome": "QSE 3 PR", "durata_ore": 1.67, "richiedi_certificazione": null, "quando": "Pranzo", "orario_inizio": 12},
+    {"nome": "QSE 5 PM", "durata_ore": 2.5, "richiedi_certificazione": null, "quando": "Pomeriggio", "orario_inizio": 14},
+    {"nome": "QSE 6 PM", "durata_ore": 1.5, "richiedi_certificazione": null, "quando": "Pomeriggio", "orario_inizio": 15},
+    {"nome": "QSE 7 SE", "durata_ore": 2.25, "richiedi_certificazione": null, "quando": "Sera", "orario_inizio": 18},
+    {"nome": "QSE 7bis SE", "durata_ore": 2.25, "richiedi_certificazione": "RM", "quando": "Sera", "orario_inizio": 18},
+    {"nome": "QSE 8 SE", "durata_ore": 2, "richiedi_certificazione": null, "quando": "Sera", "orario_inizio": 19},
+    {"nome": "QSE 8bis SE", "durata_ore": 2, "richiedi_certificazione": null, "quando": "Sera", "orario_inizio": 19},
+    {"nome": "QSE 8c SE", "durata_ore": 1.5, "richiedi_certificazione": null, "quando": "Sera", "orario_inizio": 20},
+    {"nome": "QSE 9 SE", "durata_ore": 2.25, "richiedi_certificazione": null, "quando": "Sera", "orario_inizio": 21},
+    {"nome": "QSE 10 DO", "durata_ore": 3, "richiedi_certificazione": null, "quando": "Domenicale", "orario_inizio": 10},
+    {"nome": "QSE 11 DO", "durata_ore": 2.5, "richiedi_certificazione": null, "quando": "Domenicale", "orario_inizio": 12},
+    {"nome": "QSE 12 DO", "durata_ore": 1.5, "richiedi_certificazione": null, "quando": "Domenicale", "orario_inizio": 14},
+    {"nome": "QSE Uf SE", "durata_ore": 1.5, "richiedi_certificazione": null, "quando": "Sera", "orario_inizio": 18}
+  ],
+  "vincoli_globali": {
+    "dipendenti_consecutivi": true,
+    "dipendenti_per_turno": {
+      "CDQ 1 MA": 1,
+      "CDQ 2 PM": 1,
+      "CDQ 3 SE": 1,
+      "CDQ 4 DO": 1,
+      "CDQ 5 DO": 1,
+      "SS P1 MA": 1,
+      "SS P2 MA": 1,
+      "SS P3 MA": 1,
+      "SS 3 PR": 1,
+      "SS 4 PM": 1,
+      "SS 5 PM": 1,
+      "SS 6 PM": 1,
+      "SS 7 SE": 1,
+      "SS 8 SE": 1,
+      "SS 9 DO": 1,
+      "SS 10 DO": 1,
+      "SS 11 DO": 1,
+      "QSE 1 MA": 1,
+      "QSE 2 MA": 1,
+      "QSE 2bis MA": 1,
+      "QSE 3 MA": 1,
+      "QSE 3 PR": 1,
+      "QSE 5 PM": 1,
+      "QSE 6 PM": 1,
+      "QSE 7 SE": 1,
+      "QSE 7bis SE": 1,
+      "QSE 8 SE": 1,
+      "QSE 8bis SE": 1,
+      "QSE 8c SE": 1,
+      "QSE 9 SE": 1,
+      "QSE 10 DO": 1,
+      "QSE 11 DO": 1,
+      "QSE 12 DO": 1,
+      "QSE Uf SE": 1
+    },
+    "alternanza_domenicale": {
+      "attivo": true,
+      "soft": true,
+      "penalita": 250,
+      "turni": ["SS 10 DO", "SS 11 DO", "CDQ 4 DO", "CDQ 5 DO", "SS 9 DO", "QSE 10 DO", "QSE 11 DO", "QSE 12 DO"],
+      "settimana_inizio_alternanza": 1
+    }
+  },
+  "dipendenti": [
+  {
+    "id": 0,
+    "nome": "MARCI ROBERTA",
+    "certificazioni": [],
+    "max_ore_settimanali": 21,
+    "vincoli": [
+      {
+        "tipo": "esclusione_temporale",
+        "quando": ["Mattina"],
+        "soft": true,
+        "penalita": 200
+      },
+      {
+        "tipo": "limite_frequenza",
+        "quando": "Sera",
+        "giorno": "venerdì",
+        "frequenza": 1,
+        "periodo": "mese",
+        "soft": true,
+        "penalita": 100
+      },
+      {
+        "tipo": "restrizione_cantieri",
+        "cantieri": ["San Salvatore"],
+        "soft": true,
+        "penalita": 400
+      },
+      {
+        "tipo": "limite_turni_giornalieri",
+        "max_turni": 2,
+        "soft": true,
+        "penalita": 5000
+      },
+      {
+        "tipo": "limite_ore_settimanali",
+        "max_ore": 21,
+        "soft": true,
+        "penalita": 500
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "nome": "MURTAS ANTONELLA",
+    "certificazioni": [],
+    "max_ore_settimanali": 21,
+    "vincoli": [
+      {
+        "tipo": "esclusione_temporale",
+        "giorno": "lunedì",
+        "soft": true,
+        "penalita": 400
+      },
+      {
+        "tipo": "esclusione_oraria",
+        "giorno": "giovedì",
+        "dopo_le": 19,
+        "soft": true,
+        "penalita": 200
+      },
+      {
+        "tipo": "restrizione_cantieri",
+        "cantieri": ["Sant'Elena", "San Salvatore"],
+        "soft": true,
+        "penalita": 200
+      },
+      {
+        "tipo": "dipendenza_turni",
+        "se_turno": "Sera",
+        "non_turno_successivo": "Mattina",
+        "giorni_dopo": 1,
+        "soft": true,
+        "penalita": 200
+      },
+      {
+        "tipo": "limite_turni_giornalieri",
+        "max_turni": 2,
+        "soft": true,
+        "penalita": 5000
+      },
+      {
+        "tipo": "limite_ore_settimanali",
+        "max_ore": 25,
+        "soft": true,
+        "penalita": 500
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "PROVENZANO STEFANIA",
+    "certificazioni": ["RM"],
+    "max_ore_settimanali": 33,
+    "vincoli": [
+      {
+        "tipo": "dipendenza_turni",
+        "se_turno": "Sera",
+        "non_turno_successivo": "Mattina",
+        "giorni_dopo": 17,
+        "soft": true,
+        "penalita": 200
+      },
+      {
+        "tipo": "limite_turni_giornalieri",
+        "max_turni": 2,
+        "soft": true,
+        "penalita": 5000
+      },
+      {
+        "tipo": "limite_ore_settimanali",
+        "max_ore": 33,
+        "soft": true,
+        "penalita": 500
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "PILUDU SARA",
+    "certificazioni": ["RM"],
+    "max_ore_settimanali": 33,
+    "vincoli": [
+      {
+        "tipo": "adiacenza_turni",
+        "max_turni_giorno": 2,
+        "adiacenti": true,
+        "soft": true,
+        "penalita": 200
+      },
+      {
+        "tipo": "restrizione_cantieri",
+        "cantieri": ["Sant'Elena"],
+        "soft": true,
+        "penalita": 200
+      },
+      {
+        "tipo": "limite_turni_giornalieri",
+        "max_turni": 2,
+        "soft": true,
+        "penalita": 5000
+      },
+      {
+        "tipo": "limite_ore_settimanali",
+        "max_ore": 33,
+        "soft": true,
+        "penalita": 500
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "PILLERI MANUELA",
+    "certificazioni": [],
+    "max_ore_settimanali": 33,
+    "vincoli": [
+      {
+        "tipo": "dipendenza_turni",
+        "se_turno": "Sera",
+        "non_turno_successivo": "Mattina",
+        "giorni_dopo": 1,
+        "soft": true,
+        "penalita": 200
+      },
+      {
+        "tipo": "limite_turni_giornalieri",
+        "max_turni": 2,
+        "soft": true,
+        "penalita": 5000
+      },
+      {
+        "tipo": "limite_ore_settimanali",
+        "max_ore": 33,
+        "soft": true,
+        "penalita": 500
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "ZEDDA CATERINA",
+    "certificazioni": ["RM"],
+    "max_ore_settimanali": 33,
+    "vincoli": [
+      {
+        "tipo": "dipendenza_turni",
+        "se_turno": "Sera",
+        "non_turno_successivo": "Mattina",
+        "giorni_dopo": 1,
+        "soft": true,
+        "penalita": 200
+      },
+      {
+        "tipo": "limite_turni_giornalieri",
+        "max_turni": 2,
+        "soft": true,
+        "penalita": 5000
+      },
+      {
+        "tipo": "limite_ore_settimanali",
+        "max_ore": 33,
+        "soft": true,
+        "penalita": 500
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "ZUCCA GESSICA",
+    "certificazioni": [],
+    "max_ore_settimanali": 33,
+    "vincoli": [
+      {
+        "tipo": "esclusione_temporale",
+        "quando": ["Mattina"],
+        "giorno": "giovedì",
+        "soft": true,
+        "penalita": 100
+      },
+      {
+        "tipo": "limite_turni_giornalieri",
+        "max_turni": 2,
+        "soft": true,
+        "penalita": 5000
+      },
+      {
+        "tipo": "limite_ore_settimanali",
+        "max_ore": 33,
+        "soft": true,
+        "penalita": 500
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "nome": "PUDDU ANNA",
+    "certificazioni": [],
+    "max_ore_settimanali": 12,
+    "vincoli": [
+      {
+        "tipo": "esclusione_temporale",
+        "quando": ["Sera", "Domenicale"],
+        "soft": true,
+        "penalita": 120
+      },
+      {
+        "tipo": "esclusione_temporale",
+        "quando": ["Mattina"],
+        "giorno": ["martedì", "sabato"],
+        "soft": true,
+        "penalita": 20
+      },
+      {
+        "tipo": "restrizione_cantieri",
+        "cantieri": ["San Salvatore"],
+        "soft": true,
+        "penalita": 200
+      },
+      {
+        "tipo": "limite_turni_giornalieri",
+        "max_turni": 2,
+        "soft": true,
+        "penalita": 5000
+      },
+      {
+        "tipo": "limite_ore_settimanali",
+        "max_ore": 12,
+        "soft": true,
+        "penalita": 500
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "nome": "PARODO MARIA RITA",
+    "certificazioni": [],
+    "max_ore_settimanali": 23,
+    "vincoli": [
+      {
+        "tipo": "alternanza_temporale",
+        "quando1": "Mattina",
+        "quando2": "Sera",
+        "settimana_inizio": 1,
+        "soft": true,
+        "penalita": 300
+      },
+      {
+        "tipo": "esclusione_temporale",
+        "quando": ["Pomeriggio"],
+        "soft": true,
+        "penalita": 300
+      },
+      {
+        "tipo": "esclusione_temporale",
+        "quando": ["Pranzo"],
+        "soft": true,
+        "penalita": 300
+      },
+      {
+        "tipo": "restrizione_cantieri",
+        "cantieri": ["Sant'Elena", "San Salvatore"],
+        "soft": true,
+        "penalita": 200
+      },
+      {
+        "tipo": "limite_turni_giornalieri",
+        "max_turni": 2,
+        "soft": true,
+        "penalita": 5000
+      },
+      {
+        "tipo": "limite_ore_settimanali",
+        "max_ore": 23,
+        "soft": true,
+        "penalita": 500
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "nome": "DEROMA ALESSANDRA",
+    "certificazioni": [],
+    "max_ore_settimanali": 20,
+    "vincoli": [
+      {
+        "tipo": "esclusione_oraria",
+        "fino_a": 8,
+        "soft": true,
+        "penalita": 200
+      },
+      {
+        "tipo": "restrizione_cantieri",
+        "cantieri": ["Città di Quartu", "Sant'Elena"],
+        "soft": true,
+        "penalita": 200
+      },
+      {
+        "tipo": "limite_turni_giornalieri",
+        "max_turni": 2,
+        "soft": true,
+        "penalita": 5000
+      },
+      {
+        "tipo": "limite_ore_settimanali",
+        "max_ore": 20,
+        "soft": true,
+        "penalita": 500
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "nome": "CILLANU MICHELA",
+    "certificazioni": [],
+    "max_ore_settimanali": 30,
+    "vincoli": [
+      {
+        "tipo": "esclusione_oraria",
+        "fino_a": 8,
+        "soft": true,
+        "penalita": 200
+      },
+      {
+        "tipo": "restrizione_cantieri",
+        "cantieri": ["Sant'Elena", "San Salvatore"],
+        "soft": true,
+        "penalita": 200
+      },
+      {
+        "tipo": "limite_turni_giornalieri",
+        "max_turni": 2,
+        "soft": true,
+        "penalita": 5000
+      },
+      {
+        "tipo": "limite_ore_settimanali",
+        "max_ore": 30,
+        "soft": true,
+        "penalita": 500
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "nome": "CRISAFULLI STEFANIA",
+    "certificazioni": [],
+    "max_ore_settimanali": 16,
+    "vincoli": [
+      {
+        "tipo": "esclusione_oraria",
+        "fino_a": 19,
+        "soft": true,
+        "penalita": 200
+      },
+      {
+        "tipo": "restrizione_cantieri",
+        "cantieri": ["San Salvatore"],
+        "soft": true,
+        "penalita": 200
+      },
+      {
+        "tipo": "limite_turni_giornalieri",
+        "max_turni": 2,
+        "soft": true,
+        "penalita": 5000
+      },
+      {
+        "tipo": "limite_ore_settimanali",
+        "max_ore": 16,
+        "soft": true,
+        "penalita": 500
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "nome": "SANNA MARIA FEDERICA",
+    "certificazioni": ["RM"],
+    "max_ore_settimanali": 16,
+    "vincoli": [
+      {
+        "tipo": "esclusione_oraria",
+        "fino_a": 19,
+        "soft": true,
+        "penalita": 200
+      },
+      {
+        "tipo": "limite_turni_giornalieri",
+        "max_turni": 2,
+        "soft": true,
+        "penalita": 5000
+      },
+      {
+        "tipo": "limite_ore_settimanali",
+        "max_ore": 16,
+        "soft": true,
+        "penalita": 500
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "nome": "GARBARINO ALICE",
+    "certificazioni": [],
+    "max_ore_settimanali": 30,
+    "vincoli": [
+      {
+        "tipo": "restrizione_cantieri",
+        "cantieri": ["Sant'Elena"],
+        "soft": true,
+        "penalita": 200
+      },
+      {
+        "tipo": "limite_turni_giornalieri",
+        "max_turni": 2,
+        "soft": true,
+        "penalita": 5000
+      },
+      {
+        "tipo": "limite_ore_settimanali",
+        "max_ore": 30,
+        "soft": true,
+        "penalita": 500
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "nome": "INCANI FRANCESCA",
+    "certificazioni": [],
+    "max_ore_settimanali": 25,
+    "vincoli": [
+      {
+        "tipo": "restrizione_cantieri",
+        "cantieri": ["San Salvatore"],
+        "soft": true,
+        "penalita": 200
+      },
+      {
+        "tipo": "limite_turni_giornalieri",
+        "max_turni": 2,
+        "soft": true,
+        "penalita": 5000
+      },
+      {
+        "tipo": "limite_ore_settimanali",
+        "max_ore": 25,
+        "soft": true,
+        "penalita": 500
+      }
+    ]
+  }
+]
+}
